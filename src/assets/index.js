@@ -20,6 +20,18 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import python from "./tech/python2.png"
+import sql from "./tech/sql.png"
+import api from "./tech/api.png"
+import pipelines from "./tech/ci_cd_pipelines.png"
+import airflow from "./tech/airflow.png"
+import aws from "./tech/aws.png"
+import azure from "./tech/azure.png"
+import gcp from "./tech/gcp.png"
+import pyspark from "./tech/pyspark.png"
+import databricks from "./tech/databricks.png"
+import terraform from "./tech/terraform.png"
+import powerbi from "./tech/power_bi.png"
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
@@ -59,4 +71,16 @@ export {
   carrent,
   jobit,
   tripguide,
+  python,
+  sql,
+  api,
+  pipelines,
+  aws,
+  azure,
+  gcp,
+  databricks,
+  powerbi,
+  terraform,
+  pyspark,
+  airflow,
 };

@@ -7,6 +7,18 @@ import {
   typescript,
   html,
   css,
+  python,
+  pipelines,
+  aws,
+  azure,
+  databricks,
+  terraform,
+  gcp,
+  pyspark,
+  powerbi,
+  airflow,
+  sql,
+  api,
   reactjs,
   redux,
   tailwind,
@@ -41,12 +53,8 @@ export const navLinks = [
 ];
 
 const services = [
-  {
-    title: "Web Developer",
-    icon: web,
-  },
-  {
-    title: "React Native Developer",
+    {
+    title: "Data Engineer",
     icon: mobile,
   },
   {
@@ -54,60 +62,74 @@ const services = [
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "Data Analyst",
     icon: creator,
+  },
+  {
+    title: "Web Developer",
+    icon: web,
   },
 ];
 
 const technologies = [
   {
-    name: "HTML 5",
-    icon: html,
+    name: "Python",
+    icon: python,
   },
   {
-    name: "CSS 3",
-    icon: css,
+    name: "SQL",
+    icon: sql,
+
   },
   {
-    name: "JavaScript",
-    icon: javascript,
+    name: "API",
+    icon: api,
+
   },
   {
-    name: "TypeScript",
-    icon: typescript,
+    name: "AWS",
+    icon: aws,
   },
   {
-    name: "React JS",
-    icon: reactjs,
+    name: "AZURE",
+    icon: azure,
   },
   {
-    name: "Redux Toolkit",
-    icon: redux,
+    name: "GCP",
+    icon: gcp,
   },
   {
-    name: "Tailwind CSS",
-    icon: tailwind,
+    name: "Airflow",
+    icon: airflow,
   },
   {
-    name: "Node JS",
-    icon: nodejs,
+    name: "Databricks",
+    icon: databricks,
   },
   {
-    name: "MongoDB",
-    icon: mongodb,
+    name: "Pyspark",
+    icon: pyspark,
   },
   {
-    name: "Three JS",
-    icon: threejs,
+    name: "PowerBI",
+    icon: powerbi,
   },
   {
-    name: "git",
-    icon: git,
+    name: "Terraform",
+    icon: terraform,
   },
-  {
-    name: "figma",
-    icon: figma,
-  },
+  // {
+  //   name: "JavaScript",
+  //   icon: javascript,
+  // },
+  // {
+  //   name: "React JS",
+  //   icon: reactjs,
+  // },
+  // {
+  //   name: "MongoDB",
+  //   icon: mongodb,
+  // },
   {
     name: "docker",
     icon: docker,
@@ -116,55 +138,90 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
+    title: "Programmer Analyst",
+    company_name: "Cognizant",
     icon: starbucks,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "December 2017 - December 2018 ",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "RoboPMO – Enhanced AI driven Project\n" +
+      "Management chatBot, mainly focused on\n" +
+      "Cognizant Leadership team",
+      "Technology – Python with Flask framework, Natural\n" +
+      "Language Processing (NLP).",
+      "Conversational AI – Developed numerous chatbots\n" +
+      "for cognizant potential customers like Elizabeth river\n" +
+      "crossings(ERC), Amgen and BB&T.",
+      "Technology – Python with Flask framework, Natural\n" +
+      "Language Processing (NLP), Azure LUIS, Dialogue\n" +
+      "Flow, Amazon Alexa Skill Development and Salesforce",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
+    title: "Developer",
+    company_name: "Cognizant",
     icon: tesla,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "December 2018 - January 2021",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "NEXA (Next Generation AI) – Developed ML Platform that automates Machine Learning\n" +
+      "Algorithms to produce a complete report evaluating the data choosing the best model from\n" +
+      "list of models and also have a leader board of the best models.",
+      "Mainly Focused on Demand Sensing, Classification and Regression.\n",
+      "Technology – Data Acquisition, Data wrangling,\n" +
+      "Data Visualization, Deployment and AutoML which\n" +
+      "includes Preprocessing, feature engineering, Model\n" +
+      "Building and Evaluation.",
+      "Incorporated the data preparation pipeline inside\n" +
+      "the workflow to scale the solution thereby providing\n" +
+      "the users a chance to increase the average\n" +
+      "efficiency of the model by 50 %.",
+      "Digital Green – Developed a Platform that\n" +
+      "automates a journey of a farmer from field to\n" +
+      "market using IoT, cloud, demand sensing and\n" +
+      "disease detection.\n",
+      "Technology - Working on IoT devices like Node\n" +
+      "MCU, Particle Photon to integrate various sensors\n" +
+      "such as humidity, temperature, rain, IR, Light sensors\n" +
+      "and interacting with Oracle cloud for data.\n" +
+      "Data used for Yield Prediction, disease detection\n" +
+      "and demand sensing using Machine Learning\n" +
+      "Platform.\n",
+      "Technology – Machine Learning, Deep Learning, ML\n" +
+      "Packages and Python.",
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
+    title: "Senior Developer",
+    company_name: "Cognizant",
     icon: shopify,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "Jan 2021 - Aug 2021",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Managed the lifecycle of Machine Learning models and NLP solutions within NEXA, an AI platform, encompassing data engineering, AutoML, and ML Ops.",
+      "Developed and deployed data pipelines using various sources, including Snowflake, ClickHouse, and S3, optimizing data processing and format handling.",
+      "Coordinated large-scale software deployments and provided guidance to team members, ensuring efficient project execution.\n" +
+      "Evaluated and improved development work, provided training, and fostered knowledge transfer within the team." ,
+      "Spearheaded the enhancement of internal data platforms, introducing innovative technologies and methodologies to drive efficiency across departments." ,
+      "Analyzed and recommended improvement strategies for key performance indicators (KPIs) across business areas, such as attrition analysis." ,
+      "Worked with SQL and NoSQL databases for data preparation and cross-database migration, ensuring seamless data operations." ,
+      "Utilized Terraform for provisioning and maintaining databases and other resources, optimizing infrastructure management",
     ],
   },
   {
-    title: "Full stack Developer",
-    company_name: "Meta",
+    title: "Senior Data Engineer",
+    company_name: "Körber",
     icon: meta,
     iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    date: "Aug 2021 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Designed and managed API architecture, resulting in a 200% increase in performance by optimizing response times and enhancing user experience." ,
+      "Led ETL tasks to ensure data integrity and pipeline stability, contributing to effective anomaly detection services." ,
+      "Modernized legacy code bases to align with current development standards, reducing operating costs and improving functionality." ,
+      "Analyzed complex data to identify anomalies, trends, and risks, providing valuable insights to improve internal controls." ,
+      "Created interactive analytical solutions and visualization dashboards using Power BI, facilitating efficient communication of business insights to stakeholders." ,
+      "Implemented Bash/Linux shell scripting and Python for database design and updates, ensuring seamless data operations." ,
+      "Orchestrated database migration from on-premises to Azure cloud, ensuring data security and optimizing performance.",
     ],
   },
 ];
