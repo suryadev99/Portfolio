@@ -16,3 +16,6 @@ npx tailwindcss init
 
 # adding content to tailwind.config.js
 add content: ["./src/**/*.{js,jsx}"] to tailwind.config.js
+
+# deploying vite / react app to github pages
+https://dev.to/rashidshamloo/deploying-vite-react-app-to-github-pages-35hf
