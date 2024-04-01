@@ -25,19 +25,20 @@ import sql from "./tech/sql.png"
 import api from "./tech/api.png"
 import pipelines from "./tech/ci_cd_pipelines.png"
 import airflow from "./tech/airflow.png"
-import aws from "./tech/aws.png"
+import aws from "./tech/aws1.png"
 import azure from "./tech/azure.png"
 import gcp from "./tech/gcp.png"
 import pyspark from "./tech/pyspark.png"
 import databricks from "./tech/databricks.png"
-import terraform from "./tech/terraform.png"
+import terraform from "./tech/terraform1.png"
 import powerbi from "./tech/power_bi.png"
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
-
+import koerber from "./company/koerber.png"
+import cognizant from "./company/cognizant.jpeg"
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
@@ -68,6 +69,8 @@ export {
   shopify,
   starbucks,
   tesla,
+  koerber,
+  cognizant,
   carrent,
   jobit,
   tripguide,

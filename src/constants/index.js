@@ -31,6 +31,8 @@ import {
   starbucks,
   tesla,
   shopify,
+  koerber,
+  cognizant,
   carrent,
   jobit,
   tripguide,
@@ -45,6 +47,10 @@ export const navLinks = [
   {
     id: "work",
     title: "Work",
+  },
+  {
+    id: "projects",
+    title:"Projects"
   },
   {
     id: "contact",
@@ -140,7 +146,7 @@ const experiences = [
   {
     title: "Programmer Analyst",
     company_name: "Cognizant",
-    icon: starbucks,
+    icon: cognizant,
     iconBg: "#383E56",
     date: "December 2017 - December 2018 ",
     points: [
@@ -160,7 +166,7 @@ const experiences = [
   {
     title: "Developer",
     company_name: "Cognizant",
-    icon: tesla,
+    icon: cognizant,
     iconBg: "#E6DEDD",
     date: "December 2018 - January 2021",
     points: [
@@ -194,7 +200,7 @@ const experiences = [
   {
     title: "Senior Developer",
     company_name: "Cognizant",
-    icon: shopify,
+    icon: cognizant,
     iconBg: "#383E56",
     date: "Jan 2021 - Aug 2021",
     points: [
@@ -211,7 +217,7 @@ const experiences = [
   {
     title: "Senior Data Engineer",
     company_name: "Körber",
-    icon: meta,
+    icon: koerber,
     iconBg: "#E6DEDD",
     date: "Aug 2021 - Present",
     points: [
