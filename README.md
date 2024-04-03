@@ -6,3 +6,15 @@ My Data Engineering Portfolio - A Potfolio Website
 ```bash
 npm run dev
 ```
+
+## <a name="tech-stack">⚙️ Tech Stack</a>
+
+- React.js
+- Three.js
+- React Three Fiber
+- React Three Drei
+- Email JS
+- Vite
+- Tailwind CSS
+
+You can find more information on the dev branch
