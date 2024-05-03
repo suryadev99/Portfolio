@@ -17,4 +17,4 @@ npm run dev
 - Vite
 - Tailwind CSS
 
-You can find more information on the dev branch
+You can find more information about my portfolio website on the dev branch. 
