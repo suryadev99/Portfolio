@@ -58,7 +58,13 @@ const Navbar = () => {
               } hover:text-white text-[18px] font-medium cursor-pointer`}
               onClick={() => setActive(nav.title)}
             >
-              <a href={`#${nav.id}`}>{nav.title}</a>
+              {/*<a href={`#${nav.id}`}>{nav.title}</a>*/}
+              {/* Check if the current navigation item's id is "projects" */}
+              {nav.id === "projects" ? (
+                <a href="https://github.com/suryadev99" target="_blank" rel="noopener noreferrer">{nav.title}</a> // Set a different href link
+              ) : (
+                <a href={`#${nav.id}`}>{nav.title}</a> // Default href link
+              )}
             </li>
           ))}
         </ul>
